@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.10">
-      <change afterPath="$PROJECT_DIR$/app/services/hash_pass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
+    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.11">
       <change beforePath="$PROJECT_DIR$/app/routers/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/hash_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/hash_pass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.hash_pass.executor": "Run",
     "Python.orm.executor": "Run",
     "Python.request.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +48,29 @@
       <recent name="C:\Users\andre\FastapiRegIS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.orm">
+  <component name="RunManager" selected="Python.hash_pass">
+    <configuration name="hash_pass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastapiRegIS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/services" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/services/hash_pass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="orm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hash_pass" />
         <item itemvalue="Python.orm" />
         <item itemvalue="Python.request" />
       </list>
@@ -215,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730223271691</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fastapi registration IS 1.11">
+      <option name="closed" value="true" />
+      <created>1730224616712</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730224616712</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +259,7 @@
     <MESSAGE value="fastapi registration IS 1.8" />
     <MESSAGE value="fastapi registration IS 1.9" />
     <MESSAGE value="fastapi registration IS 1.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.10" />
+    <MESSAGE value="fastapi registration IS 1.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.11" />
   </component>
 </project>

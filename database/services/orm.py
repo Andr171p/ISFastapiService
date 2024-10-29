@@ -21,15 +21,15 @@ class ORMService(DatabaseSessionService):
             await session.refresh(user)
         return user
 
-    async def get_user(self, phone: str) -> UserModel:
+    async def get_user(self, phone: str) -> UserModel | None:
         async with self.session() as session:
             user = await session.execute(
                 select(UserModel).where(UserModel.phone == phone)
             )
-            if user:
+            try:
                 return user.scalars().one()
-            else:
-                raise Exception("User not found")
+            except Exception as _ex:
+                print(_ex)
 
     async def replace_password(self, phone: str, password: str) -> UserModel:
         async with self.session() as session:
