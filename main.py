@@ -27,7 +27,7 @@ fastapi_app = FastAPI(
 
 fastapi_app.include_router(
     router=registration_router,
-    prefix="registration"
+    prefix="/registration"
 )
 
 
