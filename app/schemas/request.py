@@ -20,3 +20,8 @@ class UserRegisterRequest(BaseModel):
 class UserAuthRequest(BaseModel):
     phone: str = Field(max_length=20)
     password: str = Field(max_length=20)
+
+
+class UserReplacePasswordRequest(BaseModel):
+    phone: str = Field(max_length=20)
+    password: str = Field(max_length=20)

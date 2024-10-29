@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.8">
+    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.10">
+      <change afterPath="$PROJECT_DIR$/app/services/hash_pass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/schemas/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730222393862</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fastapi registration IS 1.9">
+      <option name="closed" value="true" />
+      <created>1730222685164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730222685164</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fastapi registration IS 1.10">
+      <option name="closed" value="true" />
+      <created>1730223271691</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730223271691</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +229,8 @@
     <MESSAGE value="fastapi registration IS 1.6" />
     <MESSAGE value="fastapi registration IS 1.7" />
     <MESSAGE value="fastapi registration IS 1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.8" />
+    <MESSAGE value="fastapi registration IS 1.9" />
+    <MESSAGE value="fastapi registration IS 1.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.10" />
   </component>
 </project>

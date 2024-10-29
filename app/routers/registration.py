@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from app.schemas.request import UserRegisterRequest
 from app.schemas.response import UserRegisterResponse
 from app.middleware.globals import g
+from app.services.hash_pass import get_password_hash
 
 from database.models.user import UserModel
 
@@ -23,7 +24,7 @@ async def register_user(user: UserRegisterRequest) -> JSONResponse:
         bdate=user.bdate,
         city=user.city,
         phone=user.phone,
-        password=user.password
+        password=get_password_hash(user.password)
     )
     if await orm.get_user(phone=user_model.phone):
         raise HTTPException(status_code=400, detail="User already registered")

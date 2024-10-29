@@ -11,3 +11,8 @@ class UserRegisterResponse(BaseModel):
 class UserAuthResponse(BaseModel):
     status: Literal['ok'] = 'ok'
     data: str
+
+
+class UserReplacePasswordResponse(BaseModel):
+    status: Literal['ok'] = 'ok'
+    data: str
