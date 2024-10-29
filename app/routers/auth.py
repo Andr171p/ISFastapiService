@@ -20,3 +20,5 @@ async def auth_user(user: UserAuthRequest) -> JSONResponse:
                 'data': 'Вы успешно авторизованы'
             }
         )
+
+
