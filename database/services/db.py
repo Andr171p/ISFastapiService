@@ -20,7 +20,7 @@ class DatabaseSessionService:
 
     def init(self) -> None:
         self._engine = create_async_engine(
-            ServerDBSettings.PUBLIC_URL,
+            ServerDBSettings().PUBLIC_URL,
             echo=True
         )
         self._sessionmaker = async_sessionmaker(
