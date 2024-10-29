@@ -31,14 +31,6 @@ class ORMService(DatabaseSessionService):
             else:
                 raise Exception("User not found")
 
-    async def valid_password(self, phone: str, password: str) -> bool:
-        async with self.session() as session:
-            user = await session.execute(
-                select(UserModel).where(UserModel.phone == phone)
-            )
-            user = user.scalars().first()
-        return True if user.password == password else False
-
     async def replace_password(self, phone: str, password: str) -> UserModel:
         async with self.session() as session:
             user = await session.execute(

@@ -29,6 +29,10 @@ fastapi_app.include_router(
     router=registration_router,
     prefix="/registration"
 )
+fastapi_app.include_router(
+    router=auth_router,
+    prefix="/auth"
+)
 
 
 fastapi_app.add_middleware(GlobalMiddleware)

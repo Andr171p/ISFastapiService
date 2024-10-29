@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import JSONResponse
 
 from app.schemas.request import UserRegisterRequest
@@ -25,6 +25,8 @@ async def register_user(user: UserRegisterRequest) -> JSONResponse:
         phone=user.phone,
         password=user.password
     )
+    if await orm.get_user(phone=user_model.phone):
+        raise HTTPException(status_code=400, detail="User already registered")
     registered_user = await orm.create_user(user=user_model)
     logger.info(registered_user)
     return JSONResponse(
