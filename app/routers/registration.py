@@ -17,7 +17,7 @@ registration_router = APIRouter()
 async def register_user(user: UserRegisterRequest) -> JSONResponse:
     orm = g.orm
     user_model = UserModel(
-        fisrt_name=user.first_name,
+        first_name=user.first_name,
         last_name=user.last_name,
         surname=user.surname,
         bdate=user.bdate,
