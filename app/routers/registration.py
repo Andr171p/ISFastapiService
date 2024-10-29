@@ -7,6 +7,8 @@ from app.middleware.globals import g
 
 from database.models.user import UserModel
 
+from loguru import logger
+
 
 registration_router = APIRouter()
 
@@ -14,7 +16,17 @@ registration_router = APIRouter()
 @registration_router.post(path='/register_user/', response_model=UserRegisterResponse)
 async def register_user(user: UserRegisterRequest) -> JSONResponse:
     orm = g.orm
-    registered_user = await orm.create_user(user=user)
+    user_model = UserModel(
+        fisrt_name=user.first_name,
+        last_name=user.last_name,
+        surname=user.surname,
+        bdate=user.bdate,
+        city=user.city,
+        phone=user.phone,
+        password=user.password
+    )
+    registered_user = await orm.create_user(user=user_model)
+    logger.info(registered_user)
     return JSONResponse(
         content={
             'status': 'ok',
