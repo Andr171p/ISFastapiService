@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 
 from app.middleware.globals import GlobalMiddleware, g
+from app.routers.registration import registration_router
+from app.routers.auth import auth_router
 
 from database.services.orm import ORMService
 
@@ -21,6 +23,11 @@ async def lifespan(app: FastAPI) -> None:
 fastapi_app = FastAPI(
     title="IS registration/auth/verify",
     lifespan=lifespan
+)
+
+fastapi_app.include_router(
+    router=registration_router,
+    prefix="registration"
 )
 
 
