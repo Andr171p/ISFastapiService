@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.6">
-      <change beforePath="$PROJECT_DIR$/app/routers/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/registration.py" afterDir="false" />
+    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.8">
+      <change beforePath="$PROJECT_DIR$/app/schemas/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/models/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730221029508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fastapi registration IS 1.7">
+      <option name="closed" value="true" />
+      <created>1730222146224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730222146224</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fastapi registration IS 1.8">
+      <option name="closed" value="true" />
+      <created>1730222393862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730222393862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +206,8 @@
     <MESSAGE value="fastapi registration IS 1.4" />
     <MESSAGE value="fastapi registration IS 1.5" />
     <MESSAGE value="fastapi registration IS 1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.6" />
+    <MESSAGE value="fastapi registration IS 1.7" />
+    <MESSAGE value="fastapi registration IS 1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.8" />
   </component>
 </project>

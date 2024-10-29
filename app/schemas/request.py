@@ -11,7 +11,7 @@ class UserRegisterRequest(BaseModel):
     first_name: str
     last_name: str
     surname: str
-    bdate: datetime
+    bdate: int
     city: str
     phone: str = Field(max_length=20)
     password: str = Field(max_length=10)
