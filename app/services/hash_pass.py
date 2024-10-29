@@ -10,3 +10,9 @@ def get_password_hash(password: str) -> str:
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
+
+
+print(verify_password(
+    plain_password='7777',
+    hashed_password='$2b$12$EFZuo.tdDjii9gX0u79nLuWg4OlIGEXpa2tc0I4otD9JZBwcqhBe.'
+))

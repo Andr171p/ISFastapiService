@@ -27,7 +27,13 @@ async def register_user(user: UserRegisterRequest) -> JSONResponse:
         password=get_password_hash(user.password)
     )
     if await orm.get_user(phone=user_model.phone):
-        raise HTTPException(status_code=400, detail="User already registered")
+        # raise HTTPException(status_code=400, detail="User already registered")
+        return JSONResponse(
+            content={
+                'status': 'ok',
+                'data': 'Вы уже зарегистрированы'
+            }
+        )
     registered_user = await orm.create_user(user=user_model)
     logger.info(registered_user)
     return JSONResponse(
