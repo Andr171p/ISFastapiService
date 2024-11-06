@@ -2,11 +2,9 @@ from fastapi import FastAPI
 
 from contextlib import asynccontextmanager
 
-from app.middleware.globals import GlobalMiddleware, g
-from app.routers.registration import registration_router
-from app.routers.auth import auth_router
-
-from database.services.orm import ORMService
+from src.app.middleware.globals import GlobalMiddleware, g
+from src.app.routers.auth import auth_router
+from src.database.services.orm import ORMService
 
 from loguru import logger
 
@@ -20,19 +18,14 @@ async def lifespan(app: FastAPI) -> None:
     del orm_service
 
 
-fastapi_app = FastAPI(
+app = FastAPI(
     title="IS registration/auth/verify",
     lifespan=lifespan
 )
 
-fastapi_app.include_router(
-    router=registration_router,
-    prefix="/registration"
-)
-fastapi_app.include_router(
+app.include_router(
     router=auth_router,
-    prefix="/auth"
+    prefix="/auth-service"
 )
 
-
-fastapi_app.add_middleware(GlobalMiddleware)
+app.add_middleware(GlobalMiddleware)

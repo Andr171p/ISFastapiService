@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 
-from database.configuration.settings import ServerDBSettings
+from src.config import settings
 
 
 class DatabaseSessionService:
@@ -20,7 +20,7 @@ class DatabaseSessionService:
 
     def init(self) -> None:
         self._engine = create_async_engine(
-            ServerDBSettings().PUBLIC_URL,
+            url=settings.db.public_url,
             echo=True
         )
         self._sessionmaker = async_sessionmaker(
