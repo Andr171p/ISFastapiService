@@ -4,47 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.12.1">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/middleware/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routers/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/jwt_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certs/jwt-private.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certs/jwt-public.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logs/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logs/filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logs/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mail/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mail/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mail/smtp.py" afterDir="false" />
+    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.12.3">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middleware/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/middleware/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routers/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/registration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/hash_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/hash_pass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/configuration/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/services/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/services/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/services/orm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/services/orm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routers/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/schemas/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/schemas/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/certs/jwt-private.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/certs/jwt-public.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/services/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/smtp.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +52,25 @@
     "Python.config.executor": "Run",
     "Python.hash_pass.executor": "Run",
     "Python.jwt_token.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.orm (1).executor": "Run",
     "Python.orm.executor": "Run",
     "Python.request.executor": "Run",
     "Python.smtp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/andre/FastapiRegIS"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\FastapiRegIS\src\logs" />
       <recent name="C:\Users\andre\FastapiRegIS\src" />
       <recent name="C:\Users\andre\FastapiRegIS\database\services" />
       <recent name="C:\Users\andre\FastapiRegIS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.smtp">
+  <component name="RunManager" selected="Python.orm (1)">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
@@ -113,28 +93,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hash_pass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FastapiRegIS" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/services" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/services/hash_pass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="jwt_token" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
@@ -149,6 +107,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/services/jwt_token.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastapiRegIS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.smtp" />
         <item itemvalue="Python.orm (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.smtp" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.jwt_token" />
-        <item itemvalue="Python.hash_pass" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730228695024</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fastapi registration IS 1.12.2">
+      <option name="closed" value="true" />
+      <created>1730901109565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730901109565</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fastapi registration IS 1.12.3">
+      <option name="closed" value="true" />
+      <created>1730901235370</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730901235370</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -366,6 +362,8 @@
     <MESSAGE value="fastapi registration IS 1.11" />
     <MESSAGE value="fastapi registration IS 1.12" />
     <MESSAGE value="fastapi registration IS 1.12.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.12.1" />
+    <MESSAGE value="fastapi registration IS 1.12.2" />
+    <MESSAGE value="fastapi registration IS 1.12.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.12.3" />
   </component>
 </project>

@@ -4,16 +4,15 @@ from fastapi.responses import JSONResponse
 from src.app.controllers.users import get_user_model
 from src.app.middleware.globals import g
 from src.app.services.hash_pass import verify_password, get_password_hash
-from src.app.schemas.request import (
+from src.app.schemas.user import (
     UserAuthRequest,
     UserRegisterRequest,
-    UserReplacePasswordRequest
-)
-from src.app.schemas.response import (
+    UserReplacePasswordRequest,
     UserAuthResponse,
     UserRegisterResponse,
     UserReplacePasswordResponse
 )
+
 
 from loguru import logger
 
