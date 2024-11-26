@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 1.12.3">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="a83cefc2-df24-4ae5-941d-1694c151568f" name="Changes" comment="fastapi registration IS 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/controllers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routers/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/schemas/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/schemas/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/certs/jwt-private.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/certs/jwt-public.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/services/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mail/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mail/message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mail/smtp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/hash_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/hash_pass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/services/orm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/services/orm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.auth.executor": "Run",
     "Python.config.executor": "Run",
     "Python.hash_pass.executor": "Run",
     "Python.jwt_token.executor": "Run",
@@ -57,6 +48,7 @@
     "Python.orm.executor": "Run",
     "Python.request.executor": "Run",
     "Python.smtp.executor": "Run",
+    "Python.user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/andre/FastapiRegIS"
@@ -70,8 +62,8 @@
       <recent name="C:\Users\andre\FastapiRegIS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.orm (1)">
-    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hash_pass">
+    <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app/routers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/config.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/routers/auth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jwt_token" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hash_pass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/services/jwt_token.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/services/hash_pass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smtp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastapiRegIS" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/mail" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app/schemas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/mail/smtp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/schemas/user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hash_pass" />
         <item itemvalue="Python.orm (1)" />
+        <item itemvalue="Python.auth" />
+        <item itemvalue="Python.user" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.smtp" />
-        <item itemvalue="Python.config" />
-        <item itemvalue="Python.jwt_token" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730901235370</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fastapi registration IS 2.0">
+      <option name="closed" value="true" />
+      <created>1732310826052</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732310826052</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,6 +364,7 @@
     <MESSAGE value="fastapi registration IS 1.12.1" />
     <MESSAGE value="fastapi registration IS 1.12.2" />
     <MESSAGE value="fastapi registration IS 1.12.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 1.12.3" />
+    <MESSAGE value="fastapi registration IS 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi registration IS 2.0" />
   </component>
 </project>
